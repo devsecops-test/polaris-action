@@ -17,9 +17,9 @@ try {
 
     //Polaris API
     const authAPI='/api/auth/v1/authenticate'
-    const projectsAPI='/api/common/v1/projects'
+    const projectsAPI='/api/common/v0/projects'
     const issuesAPI='/api/query/v1/issues'
-    const eventsAPI='/api/code-analysis/v1/events-with-source'
+    const eventsAPI='/api/code-analysis/v0/events-with-source'
 
     let incremental=polarisAdditionalArgs.includes('--incremental');
 
