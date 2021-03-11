@@ -7,6 +7,7 @@ The Polaris Github Action runs polaris scan, retrieves the scan results and gene
 ## Prerequisites
 
 * To use this Action you **must be a licensed Polaris customer.**
+* Add **polaris.yml** configuration file to the root of the repository.
 
 | :exclamation: To get a demo and learn more about Polaris [click here](https://www.synopsys.com/software-integrity/polaris/demo-github.html).|
 |-----------------------------------------|
